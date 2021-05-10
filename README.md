@@ -5,6 +5,5 @@ I modified it to make it work with mainly Blackberry 10 which has a built in pyt
 
 ## Credits
 
-[Benawi Adha](https://github.com/wustho) for the source code of epy
-[Frost Ming](https://github.com/frostming) for his backport of [html](https://github.com/frostming/backports.html) module
-[Christopher Rosell](https://github.com/chrippa) for his backport of [get_terminal_size](https://github.com/chrippa/backports.shutil_get_terminal_size) function
+[Benawi Adha](https://github.com/wustho) for the source code of epy,
+[Frost Ming](https://github.com/frostming) for his backport of [html](https://github.com/frostming/backports.html) module and [Christopher Rosell](https://github.com/chrippa) for his backport of [get_terminal_size](https://github.com/chrippa/backports.shutil_get_terminal_size) function
