@@ -51,18 +51,12 @@ try:
 except ImportError:
     import markupbase as _markupbase
 
-#Backports from newer python versions
-#from backports.html import unescape
-#from backports.html.parser import HTMLParser
-
-
-
-#other
 try:
     import mobi
     MOBISUPPORT = True
 except ImportError:
     MOBISUPPORT = False
+
 #if shutil.which("pico2wave") is None\
 #        or shutil.which("play") is None:
 #    TTSSUPPORT = False
@@ -164,8 +158,6 @@ def get_terminal_size(fallback=(80, 24)):
     return terminal_size(columns, lines)
 
 ######shutil.get_terminal_size Backport######
-
-
 
 ######HTMLParser Backport######
 
@@ -624,8 +616,6 @@ class HTMLParser(_markupbase.ParserBase):
         return unescape(s)
 
 ######HTMLParser Backport######
-
-
 
 ######html.entities Backport######
 
@@ -3150,8 +3140,6 @@ for (name, codepoint) in name2codepoint.items():
 del name, codepoint
 
 ######html.entities Backport######
-
-
 
 ######unescape Backport######
 
